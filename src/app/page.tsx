@@ -367,7 +367,7 @@ const Portfolio: React.FC = () => {
       <section className="text-center py-20 bg-gradient-to-r from-slate-700 via-slate-800 to-gray-900 text-white">
         <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
         <p className="mb-6">
-          Email: jerry231088@gmail.com | Mobile: +91-9611724567
+          Email: mercymochary4@gmail.com | Mobile: +91-9050118760
         </p>
         <div className="flex justify-center space-x-4">
             <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
