@@ -20,9 +20,9 @@ const Portfolio: React.FC = () => {
   }[] = [
     {
       role: "Lead Information Developer",
-      company: "msg Global Solutions India Pvt Ltd",
+      company: "Zeta Suite",
       location: "Bengaluru, India",
-      period: "Aug 2023 – Present",
+      period: "Sep 2021 – Present",
       projects: [
         {
           name: "Semantic Bridge",
@@ -49,7 +49,7 @@ const Portfolio: React.FC = () => {
     },
     {
       role: "Senior Consultant",
-      company: "EXL Services (Inductis India Pvt Ltd)",
+      company: "FIS",
       location: "Gurugram, India",
       period: "May 2023 – Aug 2023",
       projects: [
@@ -143,100 +143,32 @@ const Portfolio: React.FC = () => {
   const skillCategories = [
     {
       category: "Technical Skills",
-      skills: ["Cloud Architecture", "Cloud Infrastructure", "Cloud Services", "Amazon Web Services (AWS)", "Cloud Computing", "Cloud Engineer", "Infrastructure as Code (IaC)", "Infrastructure Automation", "Terraform", "Data Ingestion", "Data Management", "Data Security", "Data Transformation", "Data Storage", "Code Development", "Code Deployment", "CICD", "GenAI", "AI"]
+      skills: [ "Markdown", "Kubernetes", "HTML", "XML", "Sphinx", "Video Sripting", "Doc-as-Code", "CI/CD", "MS Excel", "MS Word", "GenAI" ]
     },
     {
-      category: "AWS Cloud",
-      skills: [ "Lambda", "Batch", "ECS", "Fargate", "API Gateway", "Glue", "SNS", "SQS", "Kinesis", "MSK/Kafka", "DynamoDB", "Neptune", "S3", "Lake Formation", "Athena", "Redshift", "IAM", "Secrets Manager", "SSM Parameter Store", "SES", "ECR", "Bedrock" ]
+      category: "IDE",
+      skills: [ "VS Code" ]
     },
     {
-      category: "Data Engineering",
-      skills: [ "Data Lake", "Extract, Transform, Load (ETL)", "Extract, Load, Transform (ELT)", "Databases", "SQL", "NoSQL", "Data Warehousing", "Batch",  "Real-time Streaming", "Gremlin-Python", "Spark" ]
-    },
-    {
-      category: "Programming & Scripting",
-      skills: [ "Python", "Pandas", "SQL", "C#" ]
-    },
-    {
-      category: "Infrastructure as Code (IaC)",
-      skills: [ "Terraform" ]
+      category: "Tools",
+      skills: [ "Hugo", "Adobe FrameMaker", "Adobe Acrobat Pro DC", "Postman", "Swagger" ]
     },
     {
       category: "DevOps",
       skills: [ "GitHub", "Bitbucket", "Jenkins", "CI/CD" ]
     },
     {
-      category: "Monitoring & Logging",
-      skills: [ "CloudWatch", "Insights", "CloudTrail" ]
-    },
-    {
-      category: "Visualization & BI",
-      skills: [ "Power BI", "Athena", "QuickSight" ]
-    },
-    {
-      category: "Design & Cost",
-      skills: [ "app.diagrams.net", "AWS Pricing Calculator", "Cost Explorer", "Budgets", "Service Quotas"]
-    },
-    {
       category: "Project Management & Documentation",
-      skills: ["JIRA", "Confluence"]
-    }
-  ];
-
-  const certifications = [
-    {
-      title: 'AWS Certified Solutions Architect – Professional',
-      publicUrl: 'https://www.credly.com/badges/f8d87ba7-3bd8-428d-ad6b-adfba07567fe/public_url',
-      imageUrl: '/badges/aws-sa-pro.png'
-    },
-    {
-      title: 'AWS Certified Database – Specialty',
-      publicUrl: 'https://www.credly.com/badges/84bf4cdc-addf-4a68-ba4c-29e36837ff0f/public_url',
-      imageUrl: '/badges/aws-db-specialty.png'
-    },
-    {
-      title: 'AWS Certified Data Engineer – Associate',
-      publicUrl: 'https://www.credly.com/badges/3f7dca14-df8b-4595-a754-76d05d16e7c2/public_url',
-      imageUrl: '/badges/aws-data-engineer.png'
-    },
-    {
-      title: 'AWS Certified Solutions Architect – Associate',
-      publicUrl: 'https://www.credly.com/badges/242d7b54-73d8-4f2f-a6ad-30ca997576ca/public_url',
-      imageUrl: '/badges/aws-sa-assoc.png'
-    },
-    {
-      title: 'AWS Certified Developer – Associate',
-      publicUrl: 'https://www.credly.com/badges/dcacdf37-ade5-4fc8-8ba8-949545e4ce28/public_url',
-      imageUrl: '/badges/aws-dev-assoc.png'
-    },
-    {
-      title: 'AWS Certified AI Practitioner Early Adopter',
-      publicUrl: 'https://www.credly.com/badges/11d055b9-485b-4300-90b4-4cd0f64fa713/public_url',
-      imageUrl: '/badges/aws-ai-practitioner-early-adopter.png'
-    },
-    {
-      title: 'AWS Certified AI Practitioner',
-      publicUrl: 'https://www.credly.com/badges/37e82c5e-3014-4cb1-a481-522c1cad8b18/public_url',
-      imageUrl: '/badges/aws-ai-practitioner.png'
-    },
-    {
-      title: 'AWS Certified Cloud Practitioner',
-      publicUrl: 'https://www.credly.com/badges/32aacb39-113c-4bd1-b69f-3120776bafcf/public_url',
-      imageUrl: '/badges/aws-cloud-practitioner.png'
-    },
-    {
-      title: 'HashiCorp Certified: Terraform Associate',
-      publicUrl: 'https://www.credly.com/badges/9b7afd54-eb04-4272-8496-3bd77928b42f/public_url',
-      imageUrl: '/badges/hashicorp-tf-assoc.png'
+      skills: ["JIRA", "Confluence", "MS Excel", "MS Word", "MS Loop" ]
     }
   ];
 
   const education = [
       {
-        degree: "Bachelor of Technology in Electronics and Communication Engineering",
-        institution: "Shri Mata Vaishno Devi University",
-        period: "2007 – 2011",
-        location: "J&K, India",
+        degree: "Masters in English Literature",
+        institution: "Punjab University",
+        period: "2011 – 2013",
+        location: "Chandigarh, India",
       }
     ];
 
