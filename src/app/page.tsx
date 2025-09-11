@@ -250,6 +250,35 @@ const Portfolio: React.FC = () => {
         <h2 className="text-xl md:text-2xl font-medium mb-6">
           LEAD INFORMATION DEVELOPER
         </h2>
+        <p className="mb-6">
+          Email: mercymochary4@gmail.com | Mobile: +91-9050118760
+        </p>
+        <div className="flex justify-center space-x-4">
+          <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
+            <a href="dial:+9050118760" className="flex items-center">
+              <Phone className="mr-2 h-4 w-4" />
+              Call Me
+            </a>
+          </Button>
+
+          <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
+            <a href="mailto:mercymochary4@gmail.com">
+            <Mail className="mr-2 h-4 w-4" />
+            Email Me
+            </a>
+          </Button>
+
+          <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
+            <a
+              href="https://www.linkedin.com/in/mercymochary/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <Linkedin className="mr-2 h-4 w-4" />
+              LinkedIn
+            </a>
+          </Button>
+        </div>
       </section>
 
       {/* Summary */}
@@ -360,40 +389,6 @@ const Portfolio: React.FC = () => {
               </Card>
             </motion.div>
           ))}
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section className="text-center py-20 bg-gradient-to-r from-slate-700 via-slate-800 to-gray-900 text-white">
-        <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
-        <p className="mb-6">
-          Email: mercymochary4@gmail.com | Mobile: +91-9050118760
-        </p>
-        <div className="flex justify-center space-x-4">
-            <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
-              <a href="dial:+9050118760" className="flex items-center">
-                <Phone className="mr-2 h-4 w-4" />
-                Call Me
-              </a>
-            </Button>
-
-            <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
-              <a href="mailto:mercymochary4@gmail.com">
-              <Mail className="mr-2 h-4 w-4" />
-              Email Me
-              </a>
-            </Button>
-
-            <Button asChild className="bg-slate-100 text-slate-900 hover:bg-slate-300">
-              <a
-                href="https://www.linkedin.com/in/mercymochary/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <Linkedin className="mr-2 h-4 w-4" />
-                LinkedIn
-              </a>
-            </Button>
         </div>
       </section>
     </div>
