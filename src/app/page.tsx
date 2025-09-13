@@ -25,101 +25,73 @@ const Portfolio: React.FC = () => {
       period: "Sep 2021 – Present",
       projects: [
         {
-          name: "Semantic Bridge",
+          name: "",
           details: [
-            "Architected and deployed the product's initial AWS cloud infrastructure from the ground up using Terraform, establishing a scalable, modular, and 100% reproducible IaC.",
-            "Engineered a GenAI workflow utilizing AWS Bedrock (Claude Sonnet 4) to automate the generation of complex BPMN 2.0 model notation for the German Military.",
-            "Deployed foundational AI/ML infrastructure, including a high-performance vLLM server on AWS GPU (g6e/g5) instances for model validation and a secure CICD pipeline for sharing private KMS encrypted ECR images with third parties.",
-            "Spearheaded an R&D initiative to develop a semantic search capability, prototyping the deployment of ML models on Amazon OpenSearch with SageMaker AI and S3."
+            "Authored and enhanced technical documentation using AI-driven tools and workflow.",
+            "Worked with “docs-as-code” concept, reStructuredText, and Sphinx.",
+            "Created core developer documents for Clusters created in Kubernetes.",
+            "Worked on Hugo site deployment through CI-CD and Jenkins.",
+            "Awarded Outstanding for 2023 and Shinning Star for 2022.",
+            "Working on multiple projects at the same time.",
+            "Leading junior writers on different projects."
           ]
         },
-        {
-          name: "ProfileMap",
-          details: [
-            "Designed and deployed a serverless user profile reminder system on AWS using Terraform, optimized for $3/month cost.",
-            "Engineered automated daily reporting pipelines on AWS (Batch, Glue, S3, Athena), scaling reliably under $10/month.",
-            "Developed a cost-effective candidate search request system via email on AWS with Terraform, enabling skill-based queries for under $5/month.",
-            "Leveraged various AWS services such as EventBridge, Batch, ECR, Glue Crawler, DynamoDB, Cognito, S3 with Python and SQL; enforced security and compliance via IAM and Lake Formation; enabled reporting in Power BI through Athena ODBC.",
-            "Applied Gremlin-Python to model and retrieve complex relationships in Amazon Neptune.",
-            "Received recognition from Head of Product for innovation in reporting architecture and strategic use of AWS services.",
-            "Praised by Data Scientists for delivering a POC on DynamoDB attribute-level item size calculation, enhancing data accuracy and performance."
-          ]
-        }
-      ]
-    },
     {
-      role: "Senior Consultant",
+      role: "Senior Technical Writer",
       company: "FIS",
-      location: "Gurugram, India",
-      period: "May 2023 – Aug 2023",
+      location: "Mohali, India",
+      period: "June 2017 – Sep 2021",
       projects: [
         {
-          name: "Mettis",
+          name: "",
           details: [
-            "Designed and implemented an ETL batch pipeline to process batch datasets (CSV/JSON files).",
-            "Performed data cleaning and transformations.",
-            "Stored processed datasets in Amazon S3 (Parquet format, partitioned by year/month/day) for efficient querying.",
-            "Automated batch jobs using AWS EventBridge, scheduled to run daily.",
-            "Queried processed data via AWS Athena and created summary dashboards for reporting."
+            "Worked on a variety of Manuals related to B2K.",
+            "Updated and published the manuals as per the scheduled release.",
+            "Created and managed snow tickets on Snow Portal.",
+            "Partially worked in the testing team using mainframe, service view and putty.",
+            "Created and managed manuals related to the project.",
+            "Updated and published manuals as per the scheduled release.",
+            "Using Adobe FrameMaker and Excel for the project docs."
           ]
         }
       ]
     },
     {
-      role: "Data Engineer (Team Lead)",
-      company: "Stats Perform",
-      location: "Bengaluru, India",
-      period: "Mar 2020 – May 2023",
+      role: "Technical Writer II",
+      company: "Cogniter Technologies",
+      location: "Chandigarh, India",
+      period: "Oct 2015 – June 2017",
       projects: [
         {
-          name: "Gold Standard Data Platform",
+          name: "",
           details: [
-            "Developed real-time streaming pipelines with Kinesis/MSK to handle millions of sports events.",
-            "Built ETL pipelines into S3, DynamoDB, and Redshift to support analytics and reporting.",
-            "Promoted to Software Engineer III (2021–2022 Appraisal Cycle) for outstanding data engineering contributions and successfully leading a small team to deliver high-impact results.",
-            "Received Global Recognition Award (Q1 2022) for exceptional contributions in data engineering, driving measurable business value."
+            "Wrote manuals, guides and website content.",
+            "Wrote and managed Technical Documents related to the software after coordinating with the development team and testers.",
+            "Wrote Front-end content and pop-up messages.",
+            "Wrote Company Proposals and SRS.",
+            "Created test cases, test scenarios, logging bugs, etc.",
+            "Worked on CMS."
           ]
         }
       ]
     },
      {
-       role: "Senior Software Engineer",
-       company: "Saggezza - an Apexon Company (formerly: Saggezza India Pvt Ltd)",
-       location: "Bengaluru, India",
-       period: "Apr 2019 – Mar 2020",
+       role: "Jr. Technical Writer",
+       company: "Browsewire",
+       location: "Mohali, India",
+       period: "Sep 2015 – Oct 2015",
        projects: [
          {
-           name: "Contingent Worker w/ Goldman Sachs",
+           name: "",
            details: [
-             "Designed and built serverless, event-driven data pipelines utilizing AWS Lambda for compute and S3 & DynamoDB for scalable storage.",
-             "Developed multi-language data transformation and validation logic (C#, SQL, Python) to ensure high data accuracy and consistency for the technical support business unit."
+             "Wrote manuals, guides and website content.",
+             "Wrote Blogs and Articles.",
+             "Created promotional posts for different Social Media Sites; LinkedIn, Facebook, etc.",
+             "Wrote content for Website and Wikipedia page."
            ]
          }
        ]
-     },
-       {
-         role: "Software Developer",
-         company: "Tradelab Technologies (formerly: Tradelab Software Pvt Ltd)",
-         location: "Bengaluru, India",
-         period: "Dec 2014 – Mar 2019",
-         projects: [
-           {
-             name: "Stock Trading Dealer Application for OMS",
-             details: [
-               "Independently managed product development, from gathering client requirements to feature implementation and bug fixes.",
-               "Integrated WebSocket APIs and REST APIs for seamless real-time data exchange.",
-               "Implemented JSON serialization/deserialization using Newtonsoft for optimized data processing."
-             ]
-           },
-           {
-            name: "India’s #1 Desktop Application - Zerodha PI",
-            youtubeUrl: "https://www.youtube.com/watch?v=BJZz0cwopTw",
-            details: [
-              "Developed new features, performed bug fixes, wrote unit testing and developed various technical charting features, ensuring accuracy, performance, and reliability.",
-            ]
-          }
-         ]
-       }
+     }
   ];
 
   // THIS BLOCK AUTOMATICALLY SORT THE EXPERIENCES
@@ -143,7 +115,7 @@ const Portfolio: React.FC = () => {
   const skillCategories = [
     {
       category: "Technical Skills",
-      skills: [ "Markdown", "Kubernetes", "HTML", "XML", "Sphinx", "Video Sripting", "Doc-as-Code", "CI/CD", "MS Excel", "MS Word", "GenAI" ]
+      skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD", "Video Sripting", "Kubernetes", "Markdown", "HTML", "XML", "etc."  ]
     },
     {
       category: "IDE",
@@ -151,15 +123,15 @@ const Portfolio: React.FC = () => {
     },
     {
       category: "Tools",
-      skills: [ "Hugo", "Adobe FrameMaker", "Adobe Acrobat Pro DC", "Postman", "Swagger" ]
+      skills: [ "Hugo", "Adobe FrameMaker", "Adobe Acrobat Pro DC", "Postman", "Swagger", "OpenAI GPT", "Claude", "Google Gemini", "ChatGPT Enterprise" ]
     },
     {
       category: "DevOps",
-      skills: [ "GitHub", "Bitbucket", "Jenkins", "CI/CD" ]
+      skills: [ "GitHub Copilot", "Bitbucket", "Jenkins", "CI/CD" ]
     },
     {
       category: "Project Management & Documentation",
-      skills: ["JIRA", "Confluence", "MS Excel", "MS Word", "MS Loop" ]
+      skills: ["JIRA", "Confluence", "Microsoft Copilot" ]
     }
   ];
 
@@ -180,7 +152,7 @@ const Portfolio: React.FC = () => {
           MERCY MOCHARY
         </h1>
         <h2 className="text-xl md:text-2xl font-medium mb-6">
-          LEAD INFORMATION DEVELOPER
+          AI-Driven Lead Information Developer
         </h2>
         <p className="mb-6">
           Email: mercymochary4@gmail.com | Mobile: +91-9050118760
@@ -217,7 +189,7 @@ const Portfolio: React.FC = () => {
       <section className="max-w-4xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold mb-12 text-center">Professional Summary</h3>
         <p className="text-lg leading-relaxed">
-          Neeraj leverages over a decade of experience in technology, including 6+ years architecting and deploying robust data ecosystems on AWS. He specializes in leading cross-functional teams to tackle complex architectural challenges and consistently delivers highly available, scalable, and business-driven data solutions. Recognized for innovation and designing ground-up architectures that enhance data accuracy, unlock insights, and accelerate organizational growth.
+          11+ years of experience in creating and editing complex technical documents across IT domains, including Banking, Finance, and Business Automation. Skilled in AI-driven documentation, prompt engineering, and generative AI content workflows.
           </p>
       </section>
 
