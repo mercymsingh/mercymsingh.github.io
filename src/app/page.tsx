@@ -92,7 +92,7 @@ const Portfolio: React.FC = () => {
          }
        ]
      }
-  ];
+  ]
 
   // THIS BLOCK AUTOMATICALLY SORT THE EXPERIENCES
   const sortedExperiences = [...experiences].sort((a, b) => {
