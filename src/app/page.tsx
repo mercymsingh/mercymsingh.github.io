@@ -25,7 +25,7 @@ const Portfolio: React.FC = () => {
       period: "Sep 2021 – Present",
       projects: [
         {
-          name: "",
+          name: "Internal Projects",
           details: [
             "Authored and enhanced technical documentation using AI-driven tools and workflow.",
             "Worked with “docs-as-code” concept, reStructuredText, and Sphinx.",
@@ -43,7 +43,7 @@ const Portfolio: React.FC = () => {
       period: "June 2017 – Sep 2021",
       projects: [
         {
-          name: "",
+          name: "Internal Projects",
           details: [
             "Worked on a variety of Manuals related to B2K.",
             "Updated and published the manuals as per the scheduled release.",
@@ -63,7 +63,7 @@ const Portfolio: React.FC = () => {
       period: "Oct 2015 – June 2017",
       projects: [
         {
-          name: "",
+          name: "Talygen",
           details: [
             "Wrote manuals, guides and website content.",
             "Wrote and managed Technical Documents related to the software after coordinating with the development team and testers.",
@@ -82,7 +82,7 @@ const Portfolio: React.FC = () => {
        period: "Sep 2015 – Oct 2015",
        projects: [
          {
-           name: "",
+           name: "Internal Projects",
            details: [
              "Wrote manuals, guides and website content.",
              "Wrote Blogs and Articles.",
@@ -92,7 +92,7 @@ const Portfolio: React.FC = () => {
          }
        ]
      }
-  ]
+  ];
 
   // THIS BLOCK AUTOMATICALLY SORT THE EXPERIENCES
   const sortedExperiences = [...experiences].sort((a, b) => {
