@@ -81,7 +81,7 @@ const Portfolio: React.FC = () => {
        role: "Jr. Technical Writer",
        company: "Browsewire",
        location: "Mohali, India",
-       period: "Sep 2015 – Oct 2015",
+       period: "Sep 2014 – Oct 2015",
        projects: [
          {
            name: "Internal Projects",
