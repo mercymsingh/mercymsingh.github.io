@@ -120,10 +120,6 @@ const Portfolio: React.FC = () => {
       skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD", "Video Sripting", "Kubernetes", "Markdown", "HTML", "XML", "etc."  ]
     },
     {
-      category: "IDE",
-      skills: [ "VS Code" ]
-    },
-    {
       category: "Tools",
       skills: [ "Hugo", "Adobe FrameMaker", "Adobe Acrobat Pro DC", "Postman", "Swagger", "OpenAI GPT", "Claude", "Google Gemini", "ChatGPT Enterprise" ]
     },
@@ -134,7 +130,11 @@ const Portfolio: React.FC = () => {
     {
       category: "Project Management & Documentation",
       skills: ["JIRA", "Confluence", "Microsoft Copilot" ]
-    }
+    },
+    {
+      category: "IDE",
+      skills: [ "VS Code" ]
+    },
   ];
 
   const education = [
