@@ -188,16 +188,16 @@ const Portfolio: React.FC = () => {
       </section>
 
       {/* Summary */}
-      <section className="max-w-4xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold mb-12 text-center">Professional Summary</h3>
+      <section className="max-w-4xl mx-auto px-6 py-8">
+        <h3 className="text-3xl font-bold mb-6 text-center">Professional Summary</h3>
         <p className="text-lg leading-relaxed">
           11+ years of experience in creating and editing complex technical documents across IT domains, including Banking, Finance, and Business Automation. Skilled in AI-driven documentation, prompt engineering, and generative AI content workflows.
           </p>
       </section>
 
       {/* Skills */}
-      <section className="max-w-5xl mx-auto px-6 py-16">
-        <h3 className="text-3xl font-bold mb-12 text-center">Skills</h3>
+      <section className="max-w-5xl mx-auto px-6 py-8">
+        <h3 className="text-3xl font-bold mb-6 text-center">Skills</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => (
             <div key={idx} className="bg-white p-6 rounded-lg shadow-md">
