@@ -35,7 +35,9 @@ const Portfolio: React.FC = () => {
             "Working on multiple projects at the same time.",
             "Leading junior writers on different projects."
           ]
-        },
+        }
+      ]
+    },
     {
       role: "Senior Technical Writer",
       company: "FIS",
