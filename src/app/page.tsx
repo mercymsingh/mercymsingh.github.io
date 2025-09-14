@@ -117,7 +117,7 @@ const Portfolio: React.FC = () => {
   const skillCategories = [
     {
       category: "Technical Skills",
-      skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD", "Video Sripting", "Kubernetes", "Markdown", "HTML", "XML", "etc."  ]
+      skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD", "Video Sripting", "Kubernetes", "Markdown", "HTML", "XML"  ]
     },
     {
       category: "Tools",
