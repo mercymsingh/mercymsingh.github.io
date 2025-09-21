@@ -152,7 +152,13 @@ const Portfolio: React.FC = () => {
         period: "2011 – 2013",
         location: "Chandigarh, India",
       }
-    ];
+  ];
+
+  const portfolioData = {
+    sortedExperiences,
+    skillCategories,
+    education
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
