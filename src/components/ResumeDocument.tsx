@@ -143,9 +143,7 @@ export const ResumeDocument = ({ data }: ResumeDocumentProps) => (
                 style={[
                   styles.jobEntry,
                   // If it's the last job, remove the bottom margin to prevent an empty page
-                  idx === data.sortedExperiences.length - 1
-                              ? { marginBottom: 0 }
-                              : null
+                  idx === data.sortedExperiences.length - 1 && { marginBottom: 0 }
                 ]}
               >
                 <Text style={styles.jobTitle}>{job.role}</Text>
