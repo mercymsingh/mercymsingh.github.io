@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import React from "react";
 import { Phone, Mail, Linkedin, Youtube } from 'lucide-react';
+import dynamic from 'next/dynamic';
 
 const ResumeDownloadButton = dynamic(
   () => import('@/components/ResumeDownloadButton'),
