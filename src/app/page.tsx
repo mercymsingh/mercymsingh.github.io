@@ -6,6 +6,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Phone, Mail, Linkedin, Youtube } from 'lucide-react';
 
+const ResumeDownloadButton = dynamic(
+  () => import('@/components/ResumeDownloadButton'),
+  { ssr: false }
+);
+
+import { ResumeDocument } from '@/components/ResumeDocument';
+
 const Portfolio: React.FC = () => {
   const experiences: {
     role: string;
@@ -184,6 +191,9 @@ const Portfolio: React.FC = () => {
               LinkedIn
             </a>
           </Button>
+        </div>
+        <div className="flex justify-center mt-8">
+          <ResumeDownloadButton data={portfolioData} />
         </div>
       </section>
 
