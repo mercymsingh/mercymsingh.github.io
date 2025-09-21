@@ -140,13 +140,11 @@ export const ResumeDocument = ({ data }: ResumeDocumentProps) => (
             {data.sortedExperiences.map((job, idx) => (
               <View
                 key={idx}
-                style={[
-                  styles.jobEntry,
-                  // If it's the last job, remove the bottom margin to prevent an empty page
-                  idx === data.sortedExperiences.length - 1
-                              ? { marginBottom: 0 }
-                              : null
-                ]}
+                        style={[
+                          styles.jobEntry,
+                          // FIX: Conditionally add the style and then filter out any 'false' values
+                          idx === data.sortedExperiences.length - 1 && { marginBottom: 0 }
+                        ].filter(Boolean)}
               >
                 <Text style={styles.jobTitle}>{job.role}</Text>
                 <Text style={styles.companyInfo}>{job.company} | {job.location} | {job.period}</Text>
