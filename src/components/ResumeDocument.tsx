@@ -61,7 +61,6 @@ const styles = StyleSheet.create({
   educationText: { fontSize: 9.5 },
   jobTitle: { fontSize: 11, fontFamily: 'Roboto', fontWeight: 'bold' },
   companyInfo: { fontSize: 9.5, color: '#555555', marginBottom: 5 },
-  jobEntry: { marginBottom: 12 }, // Base style for a job entry
   bulletPoint: { flexDirection: 'row', marginBottom: 3, paddingRight: 15 },
   bullet: { width: 10, fontSize: 10 },
   bulletText: { flex: 1 },
@@ -138,14 +137,7 @@ export const ResumeDocument = ({ data }: ResumeDocumentProps) => (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Experience</Text>
             {data.sortedExperiences.map((job, idx) => (
-              <View
-                key={idx}
-                style={[
-                  styles.jobEntry,
-                  // If it's the last job, remove the bottom margin to prevent an empty page
-                  idx === data.sortedExperiences.length - 1 && { marginBottom: 0 }
-                ]}
-              >
+              <View key={idx} style={{ marginBottom: 12 }}>
                 <Text style={styles.jobTitle}>{job.role}</Text>
                 <Text style={styles.companyInfo}>{job.company} | {job.location} | {job.period}</Text>
                 {job.projects.flatMap(p => p.details).map((detail, i) => (
