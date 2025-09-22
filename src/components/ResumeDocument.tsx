@@ -137,7 +137,7 @@ export const ResumeDocument = ({ data }: ResumeDocumentProps) => (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Experience</Text>
             {data.sortedExperiences.map((job, idx) => (
-              <View key={idx} style={{ marginBottom: 12 }}>
+              <View key={idx} style={{ marginBottom: 10 }}>
                 <Text style={styles.jobTitle}>{job.role}</Text>
                 <Text style={styles.companyInfo}>{job.company} | {job.location} | {job.period}</Text>
                 {job.projects.flatMap(p => p.details).map((detail, i) => (
