@@ -35,13 +35,12 @@ const Portfolio: React.FC = () => {
         {
           name: "Internal Projects",
           details: [
-            "Authored and enhanced technical documentation using AI-driven tools and workflow.",
-            "Worked with “docs-as-code” concept, reStructuredText, and Sphinx.",
+            "Utilize AI-driven tools to author and enhance technical documentation, automating workflows through AI agents.",
+            "Working with “docs-as-code”, reStructuredText, and Sphinx.",
             "Created core developer documents for Clusters created in Kubernetes.",
-            "Worked on Hugo site deployment through CI-CD and Jenkins.",
-            "Awarded Outstanding for 2023 and Shinning Star for 2022.",
+            "Working on Hugo site deployment through CI-CD and Jenkins.",
             "Working on multiple projects at the same time.",
-            "Leading junior writers on different projects."
+            "Leading junior writers and video editors on different projects."
           ]
         }
       ]
