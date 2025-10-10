@@ -36,7 +36,7 @@ const Portfolio: React.FC = () => {
           name: "Internal Projects",
           details: [
             "Utilized AI-driven tools and custom-built AI agents to author and optimize 150+ technical documents, reducing review cycles by 70%.",
-            "Working with “docs-as-code”, reStructuredText, and Sphinx.",
+            "Working with docs-as-code, reStructuredText, and Sphinx.",
             "Designed and maintained information architecture for documentation sites.",
             "Created core developer documents for Clusters created in Kubernetes.",
             "Working on Hugo site deployment through CI-CD and Jenkins.",
