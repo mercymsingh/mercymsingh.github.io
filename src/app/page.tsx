@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import React from "react";
-import { Phone, Mail, LinkedinIcon, Youtube } from 'lucide-react';
+import { Phone, Mail, Linkedin } from 'lucide-react';
 import dynamic from 'next/dynamic';
 
 const ResumeDownloadButton = dynamic(
@@ -23,7 +23,6 @@ const Portfolio: React.FC = () => {
     projects: {
       name: string;
       details: string[];
-      youtubeUrl?: string;
     }[];
   }[] = [
     {
@@ -195,7 +194,7 @@ const Portfolio: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <LinkedinIcon className="mr-2 h-4 w-4" />
+            <Linkedin className="mr-2 h-4 w-4" />
               LinkedIn
             </a>
           </Button>
@@ -268,11 +267,6 @@ const Portfolio: React.FC = () => {
                         <div key={pIdx} className="border-t pt-4">
                           <div className="flex items-center justify-between">
                             <h5 className="font-semibold text-indigo-700 mb-2">{project.name}</h5>
-                            {project.youtubeUrl && (
-                              <a href={project.youtubeUrl} target="_blank" rel="noopener noreferrer" title="Watch PI Demo on YouTube" className="text-gray-500 hover:text-red-600 transition-colors">
-                                <Youtube className="h-6 w-6" />
-                              </a>
-                            )}
                           </div>
                           <ul className="list-disc list-inside space-y-1 text-gray-700">
                             {project.details.map((d, i) => (
