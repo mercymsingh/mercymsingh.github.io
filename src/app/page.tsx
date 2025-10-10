@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import React from "react";
-import { Phone, Mail, Linkedin, Youtube } from 'lucide-react';
+import { Phone, Mail, LinkedinIcon, Youtube } from 'lucide-react';
 import dynamic from 'next/dynamic';
 
 const ResumeDownloadButton = dynamic(
@@ -195,7 +195,7 @@ const Portfolio: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <Linkedin className="mr-2 h-4 w-4" />
+            <LinkedinIcon className="mr-2 h-4 w-4" />
               LinkedIn
             </a>
           </Button>
