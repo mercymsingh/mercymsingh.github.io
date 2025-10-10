@@ -209,7 +209,7 @@ const Portfolio: React.FC = () => {
       <section className="max-w-4xl mx-auto px-6 py-8">
         <h3 className="text-3xl font-bold mb-6 text-center">Professional Summary</h3>
         <p className="text-lg leading-relaxed">
-          Technical writer with 11+ years across fintech and cloud domains, leading AI-integrated documentation pipelines. Skilled in doc-as-code, API documentation, and leveraging generative AI for scalable content delivery. 
+          Technical writer with 11+ years in fintech and cloud, specializing in AI-powered documentation. Proven expertise in Information Architecture, Content Strategy, SDK/API Documentation, and docs-as-code. Skilled in CI/CD integration, docs automation, content governance, localization, and knowledge base management to deliver scalable, high-quality content.
           </p>
       </section>
 
