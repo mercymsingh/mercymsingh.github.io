@@ -35,12 +35,14 @@ const Portfolio: React.FC = () => {
         {
           name: "Internal Projects",
           details: [
-            "Utilize AI-driven tools to author and enhance technical documentation, automating workflows through AI agents.",
+            "Utilized AI-driven tools and custom-built AI agents to author and optimize 150+ technical documents, reducing review cycles by 70%.",
             "Working with “docs-as-code”, reStructuredText, and Sphinx.",
+            "Designed and maintained information architecture for documentation sites.",
             "Created core developer documents for Clusters created in Kubernetes.",
             "Working on Hugo site deployment through CI-CD and Jenkins.",
             "Working on multiple projects at the same time.",
-            "Leading junior writers and video editors on different projects."
+            "Leading junior writers and video editors on different projects.",
+            "Collaborated with developers, DevOps, and PMs to align documentation with sprint deliverables."
           ]
         }
       ]
@@ -124,7 +126,7 @@ const Portfolio: React.FC = () => {
   const skillCategories = [
     {
       category: "Technical Skills",
-      skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD", "Video Scripting", "Kubernetes", "Markdown", "HTML", "XML"  ]
+      skills: ["Doc-as-code", "Sphinx", "Prompt Engineering", "Generative AI Content Creation", "AI-Assisted Documentation", "Conversational AI Design", "Information Retrieval using AI", "CI/CD",  "Information Architecture", "Content Strategy", "SDK/API Documentation", "Docs Automation", "Video Scripting", "Kubernetes", "Markdown", "HTML", "XML"  ]
     },
     {
       category: "Tools",
@@ -207,7 +209,7 @@ const Portfolio: React.FC = () => {
       <section className="max-w-4xl mx-auto px-6 py-8">
         <h3 className="text-3xl font-bold mb-6 text-center">Professional Summary</h3>
         <p className="text-lg leading-relaxed">
-          11+ years of experience in creating and editing complex technical documents across IT domains, including Banking, Finance, and Business Automation. Skilled in AI-driven documentation, prompt engineering, and generative AI content workflows.
+          Technical writer with 11+ years across fintech and cloud domains, leading AI-integrated documentation pipelines. Skilled in doc-as-code, API documentation, and leveraging generative AI for scalable content delivery. 
           </p>
       </section>
 
